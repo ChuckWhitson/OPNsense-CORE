@@ -1,0 +1,21 @@
+---
+description: "Machine-move brief for OPNsense-CORE"
+alwaysApply: true
+---
+
+# OPNsense-CORE
+
+- Local path: `C:\SOURCE\OPNsense-CORE`. On a new machine, keep this folder name under `C:\SOURCE`.
+- Git: master @ 88ab77fc85. Remote: https://github.com/ChuckWhitson/OPNsense-CORE.git.
+- Stack: No recognized root build manifest.
+- What it is: OPNsense GUI and system management ==================================
+- Documented from the local tree on 2026-10-11.
+- Context: OPNsense core tree used with the personal firewall work. Not SilentHop.
+
+## Work in this tree
+
+- Layout: .github/, contrib/, Keywords/, Mk/, Scripts/, src/, work/, .editorconfig, .gitignore, +POST_INSTALL
+- Build or run: `No root build file. Inspect Layout before running anything.`
+- Do not commit secrets, live firewall or cloud configs, API keys, or private keys. Root name check: None matched at the folder root. Still do not add keys, live configs, or password files.
+- Change only what the task needs. Match the style already in the file you edit.
+- This file is the Cursor brief for rebuilding the developer machine. Prefer README.md when the two disagree.
